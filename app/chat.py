@@ -9,6 +9,7 @@ def chat_with_the_model(model: Llama) -> None:
         print("Bot:", answer)
         context: str = f"{context} {question} {answer}"
 
+
 def get_model_response(model: Llama, question: str, context: str) -> str:
     response: dict = model(
         f"Context: {context} Question: {question} Answer:",
