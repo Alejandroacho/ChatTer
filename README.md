@@ -15,7 +15,7 @@ This is a simple terminal interface to interact with [Vicuna model](https://vicu
     make install-requirements
     `````
 
-3. Run:
+3. Run this to start the chat:
     ````
     make chat
     `````
